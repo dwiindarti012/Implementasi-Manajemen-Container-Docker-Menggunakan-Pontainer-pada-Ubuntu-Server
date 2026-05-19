@@ -1,0 +1,13 @@
+1. Login ke Ubuntu Server.
+2. Cek IP address menggunakan `ifconfig`.
+3. Hubungkan Ubuntu Server dengan puTTY menggunakan IP address.
+4. Jalankan `sudo apt update`.
+5. Install paket pendukung Docker.
+6. Tambahkan GPG key dan repository resmi Docker.
+7. Cek versi Docker dengan `apt-cache policy docker-ce`.
+8. Install Docker CE dan cek status layanan Docker.
+9. Uji Docker menggunakan `sudo docker run hello-world`.
+10. Install Portainer dan buat volume `portainer_data`.
+11. Jalankan container Portainer.
+12. Akses Portainer melalui browser pada port `9443`.
+13. Tambahkan user ke grup Docker menggunakan:
